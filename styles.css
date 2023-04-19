@@ -42,14 +42,7 @@ h1,h2{
 }
 
 
-section.mainbanner h1{
 
-  position: absolute;
-  left: 35%;
-  top: 40%;
-  
-
-}
 
 section.mainbanner p{
 
@@ -95,10 +88,19 @@ margin-top: 50px;
 
 header{
 position: absolute;
-top: 52%;
+top: 43%;
 left: 40%;
 font-family: 'Tilt Warp', cursive;
 font-size: 50px;
+
+}
+
+section.mainbanner .introhead{
+
+  position: absolute;
+  left: 35%;
+  top: 40%;
+  
 
 }
 
@@ -112,7 +114,7 @@ font-size: 50px;
 
 
 
-button{
+.button{
 position: absolute;
 left: 39%;
 top: 95%;
@@ -131,13 +133,13 @@ text-decoration:none;
 
 
 
-button.ordercta{
+.button.ordercta{
 
 top: 100%;
 
 }
 
-button:hover, .message:hover {
+.button:hover, .message:hover {
 background-color:#000000;
 }
 
@@ -158,7 +160,7 @@ text-decoration:none;
 
 
 
-.cookie{
+.velvetdonut{
 
   height: 390px;
   width: 300px;
@@ -242,7 +244,7 @@ main{
   margin-top: -19px;
 }
 
-#doughnutlayout {
+.doughnutlayout {
 
 display: flex;
 flex-direction: row;
@@ -364,7 +366,7 @@ margin-top: 34px;
 row-gap: 181px;
 }
 
-#doughnutlayout {
+.doughnutlayout {
 display: flex;
 flex-direction: column;
 }
